@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+## Rock Paper Scissors
 
 For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
@@ -14,7 +14,8 @@ The file RPS.py shows an example function that you will need to update. The exam
 
 Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.
 
-Development
+#Development
+
 Do not modify RPS_game.py. Write all your code in RPS.py. For development, you can use main.py to test your code.
 
 main.py imports the game function and bots from RPS_game.py.
@@ -28,5 +29,7 @@ play(player1, player2, num_games[, verbose])
 For example, here is how you would call the function if you want player and quincy to play 1000 games against each other and you want to see the results of each game:
 
 play(player, quincy, 1000, verbose=True)
-Testing
+
+#Testing
+
 The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience. If you uncomment the last line in main.py, the tests will run automatically whenever you run python main.py in the console.
